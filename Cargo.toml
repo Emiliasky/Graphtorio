@@ -1,0 +1,20 @@
+[package]
+name = "graphtorio_rust"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+# Use `cxx = "1.0.83"` here instead!
+cxx = "1.0.83"
+# Use `cxx-qt = "0.5"` here instead!
+cxx-qt = "0.5"
+# Use `cxx-qt-lib = "0.5"` here instead!
+cxx-qt-lib = "0.5"
+
+# cxx-qt-build generates C++ code from the `#[cxx_qt::bridge]` module
+# and compiles it together with the Rust static library
+[build-dependencies]
+# Use `cxx-qt-build = "0.5"` here instead!
+cxx-qt-build = "0.5"
